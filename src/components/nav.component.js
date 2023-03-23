@@ -11,7 +11,6 @@ export default class Nav extends Component {
 
     const sair = () => {
       localStorage.clear();
-      this.props.router.navigate('/');
       window.location.reload();
     }
 
@@ -48,13 +47,13 @@ export default class Nav extends Component {
                   Editar Perfil
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                   <div
                     onClick={sair}
                     className="nav-link" style={{cursor: "pointer"}}>
                       Sair
                   </div>
-              </li>
+              </li> */}
               {/* <li className="nav-item">
                 <Link to={"/adicionar_usuario"} className="nav-link">
                   Adicionar Usuário
