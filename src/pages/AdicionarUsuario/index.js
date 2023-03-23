@@ -7,8 +7,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function AdicionarUsuario() {
     return(
-        <div className="container-fluid login-container">
-            <AddUsuario/>
+        <div className="container-fluid">
+            <div className='login-container'>
+                <AddUsuario/>
+            </div>
             <Footer/>
         </div>
     );
