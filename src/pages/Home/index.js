@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../../components/nav.component';
+import { Link } from "react-router-dom";
 import Footer from '../../components/footer.component';
 import Produtos from '../../components/produtos.component';
 import "../../App.css";
@@ -50,7 +50,7 @@ export default function Home() {
                     </ul>
                 </div>
             </nav>
-            
+
             <main className="container">
                 <Produtos/>
             </main>
