@@ -130,7 +130,6 @@ export default class AddUsuario extends Component {
 
   render() {
     return (
-      <div className="container-fluid login-container">
         <div className="row">
             <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
                 <div className="card border-0 shadow rounded-3 my-5 card-login">
@@ -145,7 +144,7 @@ export default class AddUsuario extends Component {
                           </div>
                         ) : ( */}
                           <div>
-                            <h4 className="card-title text-center mb-5">Adicionar Usuário</h4>
+                            <h4 className="card-title text-center mb-5">Criar Conta</h4>
                             <div className="form-group">
                               <label htmlFor="email">E-mail</label>
                               <input
@@ -188,8 +187,7 @@ export default class AddUsuario extends Component {
                   </div>
                 </div>
             </div>
-        </div>
-    </div>       
+        </div>     
     );
   }
 }
