@@ -130,56 +130,66 @@ export default class AddUsuario extends Component {
 
   render() {
     return (
-      <div className="submit-form">
-        {/* {this.state.submitted ? (
-          <div>
-            <h4>Você salvou o usuário com sucesso!</h4>
-            <button className="btn btn-success" onClick={this.newUsuario}>
-              Adicionar outro
-            </button>
-          </div>
-        ) : ( */}
-          <div>
-            <h4>Adicionar Usuário</h4>
-            <div className="form-group">
-              <label htmlFor="email">E-mail</label>
-              <input
-                type="email"
-                className="form-control"
-                id="email"
-                required
-                value={this.state.email}
-                onChange={this.onChangeEmail}
-                name="email"
-              />
-            </div>
+      <div className="container-fluid login-container">
+        <div className="row">
+            <div className="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div className="card border-0 shadow rounded-3 my-5 card-login">
+                    <div className="card-body p-4 p-sm-5">
+                      <div className="submit-form">
+                        {/* {this.state.submitted ? (
+                          <div>
+                            <h4>Você salvou o usuário com sucesso!</h4>
+                            <button className="btn btn-success" onClick={this.newUsuario}>
+                              Adicionar outro
+                            </button>
+                          </div>
+                        ) : ( */}
+                          <div>
+                            <h4 className="card-title text-center mb-5">Adicionar Usuário</h4>
+                            <div className="form-group">
+                              <label htmlFor="email">E-mail</label>
+                              <input
+                                type="email"
+                                className="form-control"
+                                id="email"
+                                required
+                                value={this.state.email}
+                                onChange={this.onChangeEmail}
+                                name="email"
+                              />
+                            </div>
 
-            <div className="form-group">
-              <label htmlFor="senha">Senha</label>
-              <input
-                type="password"
-                className="form-control"
-                id="senha"
-                required
-                value={this.state.senha}
-                onChange={this.onChangeSenha}
-                name="senha"
-              />
-            </div>
+                            <div className="form-group">
+                              <label htmlFor="senha">Senha</label>
+                              <input
+                                type="password"
+                                className="form-control"
+                                id="senha"
+                                required
+                                value={this.state.senha}
+                                onChange={this.onChangeSenha}
+                                name="senha"
+                              />
+                            </div>
 
 
-            <div className="row">
-              <button onClick={this.saveUsuario} className="btn btn-success">
-                Cadastrar
-              </button>
-              <Link to={"/"} className="btn btn-warning ml-2">
-                Voltar
-              </Link>
+                            <div className="row">
+                              <button onClick={this.saveUsuario} className="btn btn-success">
+                                Cadastrar
+                              </button>
+                              <Link to={"/"} className="btn btn-warning ml-2">
+                                Voltar
+                              </Link>
+                            </div>
+                            <ToastContainer />
+                          </div>
+                        {/* )} */}
+                      </div>
+                  </div>
+                </div>
             </div>
-            <ToastContainer />
-          </div>
-        {/* )} */}
-      </div>
+        </div>
+    </div>       
     );
   }
 }
