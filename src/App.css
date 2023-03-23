@@ -1,0 +1,47 @@
+.login-container {
+  background-image: url("./assets/login_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 50px;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.card-login {
+  border-top: 2px blue solid;
+}
+
+.card-produtos {
+  cursor: pointer;
+}
+
+.card-produtos:hover {
+  background-color: #f0f0f0;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
