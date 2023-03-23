@@ -4,12 +4,12 @@ import Footer from '../../components/footer.component';
 import Produtos from '../../components/produtos.component';
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "../assets/logo_branco.png"
+import logo from "../../assets/logo_branco.png"
 
 
 export default function Home() {
     const usuario = JSON.parse(localStorage.getItem( "@user"));
-    
+
     const sair = () => {
         localStorage.clear();
         window.location.reload();
