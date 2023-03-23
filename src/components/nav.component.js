@@ -11,6 +11,7 @@ export default class Nav extends Component {
 
     const sair = () => {
       localStorage.clear();
+      this.props.router.navigate('/');
       window.location.reload();
     }
 
