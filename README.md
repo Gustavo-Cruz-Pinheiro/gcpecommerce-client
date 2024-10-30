@@ -1,6 +1,6 @@
 # GCPEcommerceClient
 
-![Status](http://img.shields.io/static/v1?label=Status&message=Em Progresso&color=yellow&style=for-the-badge)
+![Status](http://img.shields.io/static/v1?label=Status&message=Em%20Progresso&color=yellow&style=for-the-badge)
 
 O objetivo do projeto é desenvolver um e-commerce.
 
