@@ -1,4 +1,4 @@
-# GCPEcommerceClient
+# GCP E-commerce Client
 
 ![Status](http://img.shields.io/static/v1?label=Status&message=Em%20Progresso&color=yellow&style=for-the-badge)
 
@@ -26,10 +26,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/Gustavo-Cruz-Pinheiro/projeto-peneira.git
+$ git clone https://github.com/Gustavo-Cruz-Pinheiro/gcpecommerce-client.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd projeto-peneira
+$ cd gcpecommerce-client
 
 # Instale as dependências com
 $ npm i
