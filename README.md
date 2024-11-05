@@ -2,7 +2,7 @@
 
 ![Status](http://img.shields.io/static/v1?label=Status&message=Em%20Progresso&color=yellow&style=for-the-badge)
 
-O objetivo do projeto é desenvolver um e-commerce.
+O objetivo do projeto é desenvolver um e-commerce para praticar o desenvolvimento de web apps com react.
 
 ![Demonstração da Aplicação](./src/assets/logo_branco.png)
 
