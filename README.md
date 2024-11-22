@@ -4,7 +4,7 @@
 
 O objetivo do projeto é desenvolver um e-commerce para praticar o desenvolvimento de web apps com react.
 
-![Demonstração da Aplicação](./assets/logo_branco.png)
+![Demonstração da Aplicação](./src/assets/logo_branco.png)
 
 ## 🛠 Tecnologias
 
